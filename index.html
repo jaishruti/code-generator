@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Get Code</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="item">Get your Code</h1>
+        
+        <div class="item">
+            <label for="input">Type your programming question here...</label>
+            <textarea id="question" name="question" rows="5" cols="100">
+               
+            </textarea>
+        </div>
+
+        <fieldset class="item">
+            <legend>Select a language: </legend>
+
+            <input type="radio" name="language" checked/>
+            <label for="java">JavaScript</label>
+
+            <input type="radio" name="language"/>
+            <label for="java">Java</label>
+
+            <input type="radio" name="language"/>
+            <label for="java">Python</label>
+
+        </fieldset>
+        <input type="submit" name="submit" onclick=genrateCode()/>
+
+        <div class="item">
+            <label for="output">Your expected code</label>
+        </div>
+        </div>
+
+</body>
+</html>
