@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital@0;1&family=Vina+Sans&family=Ysabeau:ital,wght@1,1&display=swap');
+body,html{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'DM Sans', sans-serif;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(255, 228, 20);
+    /* justify-content: center; */
+    align-items: center;
+    text-align: center;
+    gap: 2rem;
+    width: 100%
+}
+.item{
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    /* justify-content: left; */
+}
+fieldset{
+    text-align: left;
+    max-width: min-content;
+}
+legend{
+    text-align: center;
+    font-style: italic;
+    font-size: medium;
+}
+.heading{
+    font-size: xx-large;
+    font-family: "Vina Sans";
+    font-weight: 400;
+}
+.submit{
+    margin-top: 50px;
+    display: block;
+    text-align: end;
+    letter-spacing: 1px;
+    font-size:large;
+    font-family: "Vina Sans";
+    background-color: transparent;
+    border: 1px solid black;
+    padding: 5px 10px;
+    border-radius: 10px;
+
+}
+.submit:hover{
+    border: 2px double black;
+    cursor: pointer;
+}
+.title{
+    display: block;
+    text-align: left;
+    margin-bottom: 10px;
+}
+:-ms-input-placeholder{
+    font-family: "Ysabeau";
+
+}
+textarea{
+    border: none;
+    border-radius: 5px;
+}
+input[type="radio"]{
+    accent-color: black;
+}
+.section{
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+    justify-content: space-between;
+    width: 600px;
+}
